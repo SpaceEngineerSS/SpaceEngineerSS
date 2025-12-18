@@ -34,6 +34,8 @@
 ```yaml
 name: Mehmet Gümüş
 located_in: Istanbul, Turkey
+current_role: AI Trainer @ Invisible Technologies
+founder: Bilir.app
 
 engineering_mindset:
   - physics_first
@@ -327,10 +329,16 @@ mindmap
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Profile Summary
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SpaceEngineerSS&theme=algolia&no-frame=true&no-bg=true&column=4&row=2" alt="GitHub Trophies"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SpaceEngineerSS&theme=tokyonight" width="95%" alt="Profile Details"/>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SpaceEngineerSS&theme=tokyonight" alt="Repos per Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SpaceEngineerSS&theme=tokyonight" alt="Most Commit Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SpaceEngineerSS&theme=tokyonight&utcOffset=3" alt="Productive Time"/>
 </div>
 
 ---
