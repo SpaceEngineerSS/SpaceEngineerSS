@@ -189,7 +189,7 @@ fun_fact: "I build rockets in software before they fly in reality"
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SpaceEngineerSS&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=SpaceEngineerSS&theme=algolia&no-frame=true&no-bg=true&column=4&row=2" alt="GitHub Trophies"/>
 </div>
 
 ---
