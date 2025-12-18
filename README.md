@@ -37,6 +37,12 @@ located_in: Istanbul, Turkey
 current_role: AI Trainer @ Invisible Technologies
 founder: Bilir.app
 
+engineering_mindset:
+  - physics_first
+  - simulation_driven
+  - performance_oriented
+  - system_level_thinking
+
 fields_of_interests:
   - Aerospace & Defense Software
   - AI/ML & LLM Fine-tuning
@@ -75,6 +81,143 @@ fun_fact: "I build rockets in software before they fly in reality"
 | `React Three Fiber` `WebGL` `Zustand` | `C++` `Python` `DSP` `Kalman/UKF` |
 | RK4 physics integration | Monopulse angle tracking |
 | Real-time guidance dynamics | ECM & Doppler analysis |
+
+</div>
+
+---
+
+## 🧠 Engineering Philosophy
+
+<div align="center">
+
+| Principle | Description |
+|:---|:---|
+| 🎯 **Design before code** | Understand the problem space before writing a single line |
+| 🔬 **Simulate before build** | Physics-based models over black-box assumptions |
+| 📊 **Measure uncertainty** | Deterministic systems with quantified error bounds |
+| ⚡ **Profile critical paths** | Performance-critical code is always benchmarked |
+| 🛡️ **Fail safely** | Real-time systems must fail gracefully, not silently |
+
+</div>
+
+---
+
+## 🛰️ Simulation Expertise
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│  🎮 SIMULATION PIPELINE                                         │
+├─────────────────────────────────────────────────────────────────┤
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │  PHYSICS     │───▶│  STATE EST.  │───▶│  CONTROL     │       │
+│  │  6-DOF       │    │  KF/EKF/UKF  │    │  PID/Adaptive│       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+│         │                   │                   │               │
+│         ▼                   ▼                   ▼               │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐       │
+│  │  RK4/Verlet  │    │  Monte Carlo │    │  Stability   │       │
+│  │  Integrators │    │  Propagation │    │  Analysis    │       │
+│  └──────────────┘    └──────────────┘    └──────────────┘       │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+**Core Competencies:**
+- 6-DOF rigid body dynamics & kinematics
+- Numerical integration (RK4, Verlet, adaptive solvers)
+- Monte Carlo uncertainty propagation
+- State estimation (Kalman, EKF, UKF)
+- Control loop stability analysis
+- Sensor noise & bias modeling
+
+---
+
+## 🤖 AI Engineering Scope
+
+<div align="center">
+
+| Domain | Focus Areas |
+|:---|:---|
+| **LLM Engineering** | Evaluation pipelines, RLHF, prompt robustness, hallucination analysis |
+| **Data Engineering** | Synthetic data generation, feature engineering for noisy datasets |
+| **ML Systems** | Classical ML for sensor classification, model validation |
+| **Deployment** | Statistical metrics, A/B testing, production monitoring |
+
+</div>
+
+---
+
+## ⚙️ Embedded & Control Systems
+
+<div align="center">
+
+```
+  ┌─────────────────────────────────────────────────────────────┐
+  │                    CONTROL ARCHITECTURE                      │
+  └─────────────────────────────────────────────────────────────┘
+                              │
+       ┌──────────────────────┼──────────────────────┐
+       ▼                      ▼                      ▼
+  ┌─────────┐           ┌─────────┐           ┌─────────┐
+  │ SENSORS │           │ CONTROL │           │ACTUATORS│
+  │ IMU/GPS │──────────▶│  PID    │──────────▶│ Motors  │
+  │ Radar   │           │ Adaptive│           │ Servos  │
+  └─────────┘           └─────────┘           └─────────┘
+       │                      │                      │
+       └──────────────────────┴──────────────────────┘
+                         FEEDBACK LOOP
+```
+
+</div>
+
+- Flight controller logic design
+- Adaptive PID & gain scheduling
+- Real-time sensor fusion algorithms
+- Hardware-in-the-loop (HIL) testing mindset
+- Low-level protocols: UART, I2C, SPI, CAN
+- Control-oriented software architecture
+
+---
+
+## ❌ What I Don't Do
+
+<div align="center">
+
+| ❌ Anti-Pattern | ✅ My Approach |
+|:---|:---|
+| Blindly trust AI outputs | Validate with domain knowledge |
+| Simulations without physics | Ground truth from first principles |
+| Premature optimization | Profile first, optimize bottlenecks |
+| Ship without observability | Logging, metrics, failure analysis |
+| Copy-paste solutions | Understand, adapt, then implement |
+
+</div>
+
+---
+
+## 🔬 Current Research Interests
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((Research))
+    Aerospace
+      High-fidelity spacecraft simulators
+      Missile guidance under uncertainty
+      Real-time digital twins
+    AI + Control
+      AI-assisted guidance systems
+      Neural network verification
+      Sim-to-real transfer
+    Radar & ECM
+      Seeker modeling under jamming
+      Target tracking algorithms
+      Signal processing pipelines
+```
 
 </div>
 
