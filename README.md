@@ -34,8 +34,6 @@
 ```yaml
 name: Mehmet Gümüş
 located_in: Istanbul, Turkey
-current_role: AI Trainer @ Invisible Technologies
-founder: Bilir.app
 
 engineering_mindset:
   - physics_first
