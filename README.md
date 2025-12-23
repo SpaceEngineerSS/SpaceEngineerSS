@@ -1,12 +1,12 @@
 <!-- Animated Header -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mehmet%20Gümüş&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=🚀%20Aerospace%20|%20🤖%20AI%20|%20⚙️%20Embedded%20|%20🎮%20Simulation&descAlignY=55&descSize=16" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mehmet%20G%C3%BCm%C3%BC%C5%9F&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=%F0%9F%9A%80%20Aerospace%20%7C%20%F0%9F%A4%96%20AI%20%7C%20%E2%9A%99%EF%B8%8F%20Embedded%20%7C%20%F0%9F%8E%AE%20Simulation&descAlignY=55&descSize=16" width="100%"/>
 </div>
 
 <!-- Typing Animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=550&lines=Space+Systems+Developer+%F0%9F%9B%B0%EF%B8%8F;AI+Trainer+%7C+Embedded+Lead;Full-Stack+Engineer+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Aerospace+%26+Defense+Software+Developer+%F0%9F%9B%B0%EF%B8%8F;Physics+Simulation+%7C+AI+Training+%7C+Embedded+Systems;Building+OrbitView+%7C+CosmoRisk+%7C+RadarSim+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -37,18 +37,21 @@
 name: Mehmet Gümüş
 location: Istanbul, Turkey 🇹🇷
 
-engineering_philosophy:
+current_roles:
+  - AI Trainer @ Invisible Technologies
+  - Embedded SW Team Lead @ UKET (Volunteer)
+
+philosophy:
   - "Physics first, code second"
   - "Simulate before you build"
   - "Measure everything, assume nothing"
 
-core_domains:
+focus_areas:
   - Aerospace & Defense Software
-  - AI/ML & LLM Engineering (RLHF)
+  - AI/ML & LLM Training (RLHF)
   - Real-time Physics Simulations
   - Embedded Systems & Robotics
   - 3D Visualization & WebGL
-  - Radar & Signal Processing
 
 fun_fact: "I build rockets in software before they fly in reality 🚀"
 ```
@@ -62,8 +65,8 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 | Role | Organization | Period | Highlights |
 |:---|:---|:---:|:---|
 | 🤖 **AI Trainer** | Invisible Technologies | 2025 - Now | LLM validation, RLHF, Turkish NLP |
-| 🚀 **Founder & Architect** | Bilir.app | 2024 - Now | Flutter, OOP design, 6-person team lead |
-| ⚙️ **Embedded SW Lead** | UKET | 2023 - Now | Rover systems, sensor fusion, C/C++ |
+| 🚀 **Founder & Developer** | Bilir.app | 2024 - Now | Flutter, OOP design, 6-person team lead |
+| ⚙️ **Embedded SW Lead** *(Volunteer)* | UKET | 2023 - Now | Rover systems, sensor fusion, C/C++ |
 | 🔬 **Software Intern** | TÜBİTAK MAM | 2023 | DSP, VNA data, MATLAB/Python |
 
 </div>
@@ -346,30 +349,33 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 ## 📊 GitHub Statistics
 
+<!-- GitHub Trophies - More Reliable -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SpaceEngineerSS&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=SpaceEngineerSS&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceEngineerSS&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceEngineerSS&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
-  </picture>
+  <img src="https://github-profile-trophy.vercel.app/?username=SpaceEngineerSS&theme=tokyonight&no-frame=true&no-bg=true&column=7" alt="GitHub Trophies"/>
 </div>
 
 <br/>
 
+<!-- Stats using GitHub Profile Summary Cards - Alternative Provider -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=SpaceEngineerSS&theme=tokyonight&hide_border=true&background=0D1117" />
-    <img src="https://streak-stats.demolab.com?user=SpaceEngineerSS&theme=default&hide_border=true" alt="GitHub Streak" />
-  </picture>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SpaceEngineerSS&theme=tokyonight" alt="Stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SpaceEngineerSS&theme=tokyonight" alt="Top Languages"/>
 </div>
 
 <br/>
 
+<!-- Streak Stats -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SpaceEngineerSS&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true" width="95%" alt="Activity Graph"/>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=SpaceEngineerSS&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  </a>
+</div>
+
+<br/>
+
+<!-- Activity Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SpaceEngineerSS&theme=tokyo-night&hide_border=true" width="95%" alt="Activity Graph"/>
 </div>
 
 ---
@@ -383,9 +389,8 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SpaceEngineerSS&theme=tokyonight" width="32%" alt="Repos"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SpaceEngineerSS&theme=tokyonight" width="32%" alt="Commits"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SpaceEngineerSS&theme=tokyonight&utcOffset=3" width="32%" alt="Time"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SpaceEngineerSS&theme=tokyonight" alt="Most Used Language"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SpaceEngineerSS&theme=tokyonight&utcOffset=3" alt="Productive Time"/>
 </div>
 
 ---
