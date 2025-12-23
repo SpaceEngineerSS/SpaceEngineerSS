@@ -6,7 +6,7 @@
 <!-- Typing Animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Space+Systems+%26+Simulation+Developer+🛰️;AI+Trainer+%7C+Embedded+Lead+%7C+Full-Stack+Engineer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=550&lines=Space+Systems+Developer+%F0%9F%9B%B0%EF%B8%8F;AI+Trainer+%7C+Embedded+Lead;Full-Stack+Engineer+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -347,20 +347,29 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SpaceEngineerSS&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&count_private=true" alt="GitHub Stats" width="48%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceEngineerSS&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&langs_count=6" alt="Top Languages" width="40%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SpaceEngineerSS&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true" />
+    <img src="https://github-readme-stats.vercel.app/api?username=SpaceEngineerSS&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub Stats" height="180"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceEngineerSS&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SpaceEngineerSS&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" height="180"/>
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SpaceEngineerSS&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B6B&currStreakLabel=00D4FF" alt="GitHub Streak" width="55%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=SpaceEngineerSS&theme=tokyonight&hide_border=true&background=0D1117" />
+    <img src="https://streak-stats.demolab.com?user=SpaceEngineerSS&theme=default&hide_border=true" alt="GitHub Streak" />
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SpaceEngineerSS&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&area_color=00D4FF" width="95%" alt="Activity Graph"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SpaceEngineerSS&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true" width="95%" alt="Activity Graph"/>
 </div>
 
 ---
