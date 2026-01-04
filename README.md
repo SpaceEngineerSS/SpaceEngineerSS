@@ -77,6 +77,31 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 <div align="center">
 
+### 🔥 EnSim
+**Rocket Engine & Flight Simulation Platform**
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/EnSim)
+[![PyPI](https://img.shields.io/badge/pip_install-ensim-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/ensim/)
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](/)
+[![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)](/)
+[![Numba](https://img.shields.io/badge/Numba_JIT-00A3E0?style=flat-square)](/)
+[![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)](/)
+[![PyVista](https://img.shields.io/badge/PyVista_3D-11557C?style=flat-square)](/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)](/)
+
+> 🔬 **NASA CEA methodology** with Gordon-McBride equilibrium solver  
+> ⚗️ Gibbs free energy minimization for combustion analysis  
+> 🚀 6-DOF flight simulation with quaternion-based orientation  
+> 📊 Monte Carlo dispersion analysis for landing predictions  
+> ❄️ Regenerative cooling thermal analysis (Bartz correlation)  
+> 🎯 Multi-stage vehicle support (Falcon 9, Saturn V presets)  
+> ⚡ Validated against NASA CEA with <2% error • Numba JIT for 10-100x speedup  
+> 🧪 226 automated tests with pytest • Published on PyPI
+
+---
+
 ### 🛰️ OrbitView
 **Advanced Real-Time Satellite Tracking & Orbital Analysis Platform**
 
@@ -88,9 +113,11 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![CesiumJS](https://img.shields.io/badge/CesiumJS-6CADDF?style=flat-square)](/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](/)
 
-> 🌍 **25,000+ satellites** real-time tracking with SGP4 propagation  
-> 📡 Doppler shift, Orbital decay & Conjunction analysis  
-> 📍 Pass prediction algorithm for observer locations  
+> 🌍 **25,000+ satellites & debris** real-time tracking with SGP4 propagation  
+> 📡 **Doppler Shift** calculation for radio frequencies  
+> 📉 **Orbital Decay** prediction algorithms  
+> ⚠️ **Conjunction analysis** for collision warnings  
+> 📍 **Pass Prediction** algorithm for observer locations  
 > 📱 PWA support & AR mode with compass-based guidance
 
 ---
@@ -106,10 +133,10 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
 
 > 🔬 **N-Body gravity simulation** with Velocity Verlet integrator (Rust)  
-> 🛰️ NASA NeoWs API integration for real asteroid data  
-> 📊 Monte Carlo collision probability analysis  
-> 💥 Kinetic Impactor deflection modeling  
-> 🎬 Cinematic physics-based 3D rendering
+> 🛰️ **NASA NeoWs API** integration for real asteroid data  
+> 📊 **Monte Carlo** collision probability analysis  
+> 💥 **Kinetic Impactor** deflection scenario modeling  
+> 🎬 Cinematic physics-based 3D rendering with Three.js
 
 ---
 
@@ -124,10 +151,10 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)](/)
 
 > 📡 **Swerling I-IV** fluctuation models & ITU-R P.676 atmospheric attenuation  
-> 🎯 LFM/Barker waveforms, CA-CFAR thresholding, SAR/ISAR imaging  
-> 🤖 Random Forest ML for target classification (Drone/Fighter/Missile)  
+> 🎯 **LFM/Barker waveforms**, CA-CFAR thresholding, SAR/ISAR imaging  
+> 🤖 **Random Forest ML** for target classification (Drone/Fighter/Missile)  
 > 🖥️ 30+ FPS PPI Scope, A-Scope & Range-Doppler displays  
-> 🌐 Cross-platform builds (Windows, macOS, Linux)
+> 🌐 Cross-platform builds (Windows, macOS, Linux) with GitHub Actions CI/CD
 
 </div>
 
@@ -144,18 +171,6 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
 
 > 20+ REST API endpoints • Real-time 3D orbital mechanics • Integration testing
-
----
-
-### 🧠 EnSim & ApogeeX
-**Rocket Engine Performance Simulator with AI Optimization**
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
-[![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)](/)
-[![Numba](https://img.shields.io/badge/Numba_JIT-00A3E0?style=flat-square)](/)
-[![PyVista](https://img.shields.io/badge/PyVista_3D-11557C?style=flat-square)](/)
-
-> NASA CEA thermochemistry • Genetic Algorithm optimization • Pareto front analysis
 
 ---
 
