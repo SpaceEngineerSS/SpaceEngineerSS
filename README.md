@@ -162,7 +162,7 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 **Real-time FDTD Electromagnetic Solver on WebAssembly**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/PhotonLab)
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://photonlab.vercel.app)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://photonlab-gamma.vercel.app)
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](/)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)](/)
