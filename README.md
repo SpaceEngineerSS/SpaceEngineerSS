@@ -6,7 +6,7 @@
 <!-- Typing Animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Aerospace+%26+Defense+Software+Developer+%F0%9F%9B%B0%EF%B8%8F;Physics+Simulation+%7C+AI+%7C+Embedded+Systems;Building+OrbitView+%7C+CosmoRisk+%7C+RadarSim+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Aerospace+%26+Defense+Software+Developer+%F0%9F%9B%B0%EF%B8%8F;Physics+Simulation+%7C+AI+%7C+Embedded+Systems;Building+OrbitView+%7C+RadarSim+%7C+EnSim+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -39,6 +39,7 @@ location: Istanbul, Turkey 🇹🇷
 
 current_roles:
   - AI Trainer @ Invisible Technologies
+  - Founder & Developer @ Bilir.app
   - Embedded SW Team Lead @ UKET (Volunteer)
 
 philosophy:
@@ -77,11 +78,12 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 <div align="center">
 
-### 🔥 EnSim
-**Rocket Engine & Flight Simulation Platform**
+### 🔥 EnSim `v4.0`
+**Liquid Rocket Engine Analysis & 6-DOF Flight Simulation**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/EnSim)
 [![PyPI](https://img.shields.io/badge/pip_install-ensim-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/ensim/)
+[![Docs](https://img.shields.io/badge/📖_Docs-00D4FF?style=for-the-badge)](https://spaceengineerss.github.io/EnSim/)
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](/)
@@ -91,34 +93,32 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![PyVista](https://img.shields.io/badge/PyVista_3D-11557C?style=flat-square)](/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)](/)
 
-> 🔬 **NASA CEA methodology** with Gordon-McBride equilibrium solver  
-> ⚗️ Gibbs free energy minimization for combustion analysis  
-> 🚀 6-DOF flight simulation with quaternion-based orientation  
-> 📊 Monte Carlo dispersion analysis for landing predictions  
-> ❄️ Regenerative cooling thermal analysis (Bartz correlation)  
-> 🎯 Multi-stage vehicle support (Falcon 9, Saturn V presets)  
-> ⚡ Validated against NASA CEA with <2% error • Numba JIT for 10-100x speedup  
-> 🧪 226 automated tests with pytest • Published on PyPI
+> 🔬 **Matches NASA CEA 3.3.2 to within 0.05%** (checked on every commit) — Gibbs minimisation over the NASA Glenn species set  
+> 🚀 **6-DOF flight** with RK4 or Dormand–Prince, US Std. Atmosphere 1976, optional WGS-84/J2 rotating Earth — checked against NASA NESC cases  
+> ❄️ Regenerative cooling (Bartz / Gnielinski), chamber contour with CSV/STL export, combustion acoustic modes  
+> 🎯 Barrowman stability, multi-stage sizing, dual-deploy recovery  
+> 📊 Parametric sweeps, design optimisation, planar MOC nozzle, Monte Carlo landing dispersion  
+> 📦 Desktop app (`pip install "ensim[gui]"`), Python library & CLI, standalone builds for Windows/macOS/Linux
 
 ---
 
-### 🛰️ OrbitView
-**Advanced Real-Time Satellite Tracking & Orbital Analysis Platform**
+### 🛰️ OrbitView `v4`
+**Real-Time Satellite Tracking & Orbital Analysis Platform**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://orbitview-five.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/OrbitVieW)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/OrbitView)
 
 [![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)](/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
 [![CesiumJS](https://img.shields.io/badge/CesiumJS-6CADDF?style=flat-square)](/)
 [![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](/)
 
-> 🌍 **25,000+ satellites & debris** real-time tracking with SGP4 propagation  
-> 📡 **Doppler Shift** calculation for radio frequencies  
-> 📉 **Orbital Decay** prediction algorithms  
-> ⚠️ **Conjunction analysis** for collision warnings  
-> 📍 **Pass Prediction** algorithm for observer locations  
-> 📱 PWA support & AR mode with compass-based guidance
+> 🌍 **Live catalog** propagated in-browser with SGP4 — full catalog incl. debris with a Space-Track account  
+> 📍 **48-hour pass prediction** with sunlit/dark visibility and a "Tonight" list of the ~150 brightest satellites  
+> 📡 **Doppler** shift and per-pass curve for common downlinks or any frequency  
+> ⚠️ **Close-approach screening** and a decay estimate driven by NOAA space weather  
+> 🗓️ `.ics` calendar export, pass alerts, CSV/JSON ephemeris, time travel up to ×1000  
+> 📱 PWA, ISS 3D chase camera, sky view on phones, Turkish & English
 
 ---
 
@@ -126,6 +126,7 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 **High-Fidelity NEO (Near-Earth Object) Defense Simulator**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/CosmoRisk)
+[![Download](https://img.shields.io/badge/⬇_Windows_v2.0.1-00D4FF?style=for-the-badge)](https://github.com/SpaceEngineerSS/CosmoRisk/releases/latest)
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](/)
 [![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)](/)
@@ -135,31 +136,34 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 > 🔬 **N-Body gravity simulation** with Velocity Verlet integrator (Rust)  
 > 🛰️ **NASA NeoWs API** integration for real asteroid data  
 > 📊 **Monte Carlo** collision probability analysis  
-> 💥 **Kinetic Impactor** deflection scenario modeling  
+> 💥 **Kinetic impactor & ion beam** deflection, gravity tractor (backend)  
+> ⚖️ **Torino Scale** & MOID hazard analysis  
 > 🎬 Cinematic physics-based 3D rendering with Three.js
 
 ---
 
-### 📡 RadarSim
-**IEEE Std 686-2008 Compliant Radar Simulation & Operator Console**
+### 📡 RadarSim `v4.0`
+**Physics-Based Radar & Electronic Warfare Simulator with Operator Console**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/RadarSim)
+[![Docs](https://img.shields.io/badge/📖_Docs-00D4FF?style=for-the-badge)](https://spaceengineerss.github.io/RadarSim/)
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
 [![PyQt6](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)](/)
-[![ML](https://img.shields.io/badge/Machine_Learning-FF6B6B?style=flat-square)](/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)](/)
 [![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)](/)
 
-> 📡 **Swerling I-IV** fluctuation models & ITU-R P.676 atmospheric attenuation  
-> 🎯 **LFM/Barker waveforms**, CA-CFAR thresholding, SAR/ISAR imaging  
-> 🤖 **Random Forest ML** for target classification (Drone/Fighter/Missile)  
-> 🖥️ 30+ FPS PPI Scope, A-Scope & Range-Doppler displays  
-> 🌐 Cross-platform builds (Windows, macOS, Linux) with GitHub Actions CI/CD
+> 📡 **Swerling 0–4** detection with pulse compression, integration & CFAR loss — looks happen at the real revisit rate  
+> 🌧️ **ITU-R P.676 / P.838 / P.839** propagation, terrain masking, land/sea/rain clutter, MTI  
+> 🛡️ **Electronic attack:** noise jamming & burn-through, DRFM range/velocity gate pull-off, chaff & decoys  
+> 🎯 **Track-while-scan:** Hungarian assignment with χ² gates, Kalman/EKF filters, monopulse angles  
+> 🌊 Coherent pulse-Doppler chain (LFM, MTI, Doppler FFT, CA/GO/SO/OS-CFAR) & range-Doppler SAR focusing  
+> 🧪 421 tests against closed-form/published values • headless CLI • builds for Windows, macOS, Linux
 
+---
 
-
-### ⚡ PhotonLab
-**Real-time FDTD Electromagnetic Solver on WebAssembly**
+### ⚡ PhotonLab `v2.0`
+**Real-time FDTD Electromagnetic Engineering Suite on WebAssembly**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/PhotonLab)
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://photonlab-gamma.vercel.app)
@@ -171,15 +175,70 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 > 🌊 **Yee Lattice Algorithm** running directly in-browser with zero-copy memory access  
 > 🛡️ **CPML Boundaries** (Convolutional Perfectly Matched Layer) for open-space simulation  
-> 🔬 **Interactive Lab** with 7 scenarios (Double Slit, Waveguide, Lens, etc.)  
-> 📈 **Real-time Signal Analysis** with virtual oscilloscope & energy divergence monitoring  
+> ✏️ **Interactive CAD engine** — paint dielectrics, PEC conductors and absorbers onto the grid  
+> 📈 **FFT signal analysis**, phased arrays & beamforming, 7 built-in scenarios  
 > ⚡ **Performance:** 60+ FPS on 512x512 grid using custom Rust physics engine
+
+---
+
+### 🧊 CRYORADAR
+**Mars Subsurface Radar Explorer (MARSIS & SHARAD)**
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://cyroradar.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/cyroradar)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
+[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](/)
+[![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=flat-square)](/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
+
+> 🛰️ Simulates the **MARSIS & SHARAD** orbital sounders searching for ice and liquid water under the Martian surface  
+> ⚡ **Adjoint-state full-waveform inversion** on WebGPU compute shaders  
+> 🔬 Fresnel reflection, Dix RMS velocity, PolSAR decomposition, **Bayesian hypothesis testing**  
+> 🌐 Radargrams, A-Scope, track map & 3D ray-marched subsurface view — 100% client-side
+
+---
+
+### ☀️ HelioShield
+**Real-Time Space Weather & Magnetosphere Response Simulator**
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://helioshield.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/helioshield)
+
+[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](/)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
+
+> 📡 **Live NOAA SWPC & NASA telemetry** — solar wind speed, density, IMF Bz/Bt from DSCOVR/ACE  
+> 🧲 **Kp estimation** via the Newell coupling function, ring-current recovery hysteresis  
+> ☄️ **CME arrival** with a drag-based model integrated by RK4  
+> ⚡ Impact assessment: auroral boundary, satellite drag, HF absorption, **geomagnetically induced currents**
 
 </div>
 
 ---
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/File%20Folder.png" alt="Folder" width="28" /> Other Projects
+
+### 🌑 [ArtemisThermalBase](https://github.com/SpaceEngineerSS/ArtemisThermalBase) `v0.4`
+**Lunar South Pole Thermal Simulation for Permanently Shadowed Regions**
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
+[![Numba](https://img.shields.io/badge/Numba_JIT-00A3E0?style=flat-square)](/)
+
+> Real LRO LOLA terrain • NAIF DE440 geometry • BVH raytracing • Crank-Nicolson heat solver • Hapke reflectance
+
+---
+
+### ✈️ [KAAN Experience](https://github.com/SpaceEngineerSS/kaan-3d-web-experience) · [Live](https://kaan-3d-web-experience.vercel.app)
+**Fan-made 3D Web Experience for the KAAN 5th-Gen Fighter**
+
+[![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)](/)
+[![WebGL](https://img.shields.io/badge/WebGL-990000?style=flat-square&logo=webgl&logoColor=white)](/)
+
+> Interactive 3D model • Panoramic glass-cockpit HUD • Manned–unmanned teaming (MUM-T) page
+
+---
 
 ### 🛰️ Orbiter (TLM-1)
 **Full-Stack Turkish Lunar Mission Simulator**
@@ -193,7 +252,7 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 ---
 
-### � Supercruise
+### 🎯 Supercruise
 **WebGL Missile Guidance & 6-DOF Simulation**
 
 [![R3F](https://img.shields.io/badge/React_Three_Fiber-000000?style=flat-square&logo=react&logoColor=white)](/)
@@ -375,6 +434,8 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 |:---|:---|
 | 🛰️ **Digitalisation in Aeronautics & Space** | TUM (Technical University of Munich) |
 | 📡 **IoT Networking** *(Honors)* | University of Illinois |
+| 🚀 **A Brief History of Human Spaceflight** | University of Houston |
+| 🔭 **Astronomy: Exploring Time & Space** | The University of Arizona |
 | 💻 **IT Essentials: PC Hardware & Software** | Cisco Networking Academy |
 
 </div>
