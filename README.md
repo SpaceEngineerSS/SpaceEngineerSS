@@ -122,23 +122,23 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 ---
 
-### ☄️ CosmoRisk
-**High-Fidelity NEO (Near-Earth Object) Defense Simulator**
+### ☄️ CosmoRisk `v3.0`
+**Near-Earth Asteroid Simulator — Flybys, Impact Risk & Deflection**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/CosmoRisk)
-[![Download](https://img.shields.io/badge/⬇_Windows_v2.0.1-00D4FF?style=for-the-badge)](https://github.com/SpaceEngineerSS/CosmoRisk/releases/latest)
+[![Download](https://img.shields.io/badge/⬇_Download_v3.0-Windows_|_macOS_|_Linux-00D4FF?style=for-the-badge)](https://github.com/SpaceEngineerSS/CosmoRisk/releases/latest)
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](/)
-[![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=flat-square&logo=tauri&logoColor=white)](/)
+[![Tauri](https://img.shields.io/badge/Tauri_2-24C8D8?style=flat-square&logo=tauri&logoColor=white)](/)
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
 
-> 🔬 **N-Body gravity simulation** with Velocity Verlet integrator (Rust)  
-> 🛰️ **NASA NeoWs API** integration for real asteroid data  
-> 📊 **Monte Carlo** collision probability analysis  
-> 💥 **Kinetic impactor & ion beam** deflection, gravity tractor (backend)  
-> ⚖️ **Torino Scale** & MOID hazard analysis  
-> 🎬 Cinematic physics-based 3D rendering with Three.js
+> 🛰️ **Real orbits from NASA/JPL** (SBDB, CAD, Sentry) — no API key, cached for offline use  
+> 🔬 **RK4 with adaptive step** under the Sun, 8 planets and the Moon (VSOP87 Earth)  
+> 🎯 **Apophis 2029 flyby within ~100 km and 20 s** of JPL's close-approach data  
+> 📊 **Monte Carlo impact probability** from the JPL orbit covariance, with **Torino & Palermo** ratings next to Sentry  
+> 💥 Kinetic impactor (DART-style β), ion beam shepherd and gravity tractor with target-plane preview  
+> 🌐 English & Turkish, night/paper themes, command palette, Markdown reports & CSV export
 
 ---
 
@@ -162,27 +162,28 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 ---
 
-### ⚡ PhotonLab `v2.0`
-**Real-time FDTD Electromagnetic Engineering Suite on WebAssembly**
+### ⚡ PhotonLab `v3.0`
+**Real-Time Electromagnetic Wave Simulator in the Browser (FDTD)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/PhotonLab)
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://photonlab-gamma.vercel.app)
+[![Docs](https://img.shields.io/badge/📖_Docs-00D4FF?style=for-the-badge)](https://photonlab-gamma.vercel.app/docs/)
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](/)
 [![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)](/)
 [![WebGL2](https://img.shields.io/badge/WebGL2-990000?style=flat-square&logo=webgl&logoColor=white)](/)
 [![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)](/)
 
-> 🌊 **Yee Lattice Algorithm** running directly in-browser with zero-copy memory access  
-> 🛡️ **CPML Boundaries** (Convolutional Perfectly Matched Layer) for open-space simulation  
-> ✏️ **Interactive CAD engine** — paint dielectrics, PEC conductors and absorbers onto the grid  
-> 📈 **FFT signal analysis**, phased arrays & beamforming, 7 built-in scenarios  
-> ⚡ **Performance:** 60+ FPS on 512x512 grid using custom Rust physics engine
+> 🌊 **2D FDTD solver in Rust → WebAssembly (SIMD)** running on its own Web Worker thread  
+> 🛡️ **TM & TE**, CPML boundaries reflecting −87 dB, mirror & periodic edges, TF/SF plane waves & Gaussian beams  
+> ✨ **Drude metals** (silver, gold) with surface plasmons, dielectrics, PEC, phased-array sources  
+> ✏️ Drawing tools, **8 probes** with signal/spectrum/energy plots, **12 experiments** (double slit, photonic crystal, zone plate…)  
+> 🧪 Physics checked in CI against Fresnel reflection & energy conservation • PWA • share links, video export
 
 ---
 
-### 🧊 CRYORADAR
-**Mars Subsurface Radar Explorer (MARSIS & SHARAD)**
+### 🧊 CryoRadar `v2.0`
+**Looking Under the Ice of Mars with Orbital Radar (SHARAD & MARSIS)**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://cyroradar.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/cyroradar)
@@ -192,15 +193,16 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=flat-square)](/)
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
 
-> 🛰️ Simulates the **MARSIS & SHARAD** orbital sounders searching for ice and liquid water under the Martian surface  
-> ⚡ **Adjoint-state full-waveform inversion** on WebGPU compute shaders  
-> 🔬 Fresnel reflection, Dix RMS velocity, PolSAR decomposition, **Bayesian hypothesis testing**  
-> 🌐 Radargrams, A-Scope, track map & 3D ray-marched subsurface view — 100% client-side
+> 🛰️ Reads **real SHARAD radargrams from NASA PDS** and simulates five MARSIS/SHARAD scenes from layered ice models  
+> 📏 **Depth model** with picked horizons, Dix RMS velocity and a temperature-dependent ice model  
+> 💧 **Bright basal reflection detection** with water / clay / clutter hypotheses and Monte Carlo uncertainty  
+> 🌊 Incoherent Kirchhoff migration • experimental **WebGPU waveform inversion** with CPU fallback  
+> 🌐 A-scope, polar track map, 3D curtain view, PDF/CSV export, offline — 100% client-side
 
 ---
 
-### ☀️ HelioShield
-**Real-Time Space Weather & Magnetosphere Response Simulator**
+### ☀️ HelioShield `v2.0`
+**Space Weather Dashboard Read Straight from the Instruments**
 
 [![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-00D4FF?style=for-the-badge)](https://helioshield.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SpaceEngineerSS/helioshield)
@@ -209,10 +211,11 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)](/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](/)
 
-> 📡 **Live NOAA SWPC & NASA telemetry** — solar wind speed, density, IMF Bz/Bt from DSCOVR/ACE  
-> 🧲 **Kp estimation** via the Newell coupling function, ring-current recovery hysteresis  
-> ☄️ **CME arrival** with a drag-based model integrated by RK4  
-> ⚡ Impact assessment: auroral boundary, satellite drag, HF absorption, **geomagnetically induced currents**
+> 📡 **Live L1 solar wind, Kp, GOES X-rays, DONKI CMEs, NOAA bulletins & OVATION aurora** — no API keys  
+> ⏪ **Replays five historic storms** minute by minute (Halloween 2003 … Gannon May 2024) with shareable deep links  
+> 🧲 **Kp nowcast** fitted on 20 years of OMNI data (RMSE 0.69) • Shue 1998 magnetopause  
+> ☄️ **CME arrival** with a drag-based model, shown next to CCMC's ENLIL run  
+> 🌍 3D Sun–Earth view, aurora visibility for your location, English & Turkish, works offline
 
 </div>
 
@@ -220,13 +223,14 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/File%20Folder.png" alt="Folder" width="28" /> Other Projects
 
-### 🌑 [ArtemisThermalBase](https://github.com/SpaceEngineerSS/ArtemisThermalBase) `v0.4`
-**Lunar South Pole Thermal Simulation for Permanently Shadowed Regions**
+### 🌑 [ArtemisThermalBase](https://github.com/SpaceEngineerSS/ArtemisThermalBase) `v0.5` · [Docs](https://spaceengineerss.github.io/ArtemisThermalBase/)
+**Illumination & Regolith Temperature for Lunar Polar Terrain, on a Laptop**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](/)
 [![Numba](https://img.shields.io/badge/Numba_JIT-00A3E0?style=flat-square)](/)
+[![PySide6](https://img.shields.io/badge/PySide6-41CD52?style=flat-square&logo=qt&logoColor=white)](/)
 
-> Real LRO LOLA terrain • NAIF DE440 geometry • BVH raytracing • Crank-Nicolson heat solver • Hapke reflectance
+> One lunar day over 79k LOLA facets around Shackleton in 9 min • NAIF DE440 Sun with penumbra • BVH raytracing • regolith column per facet • water-ice stability • PySide6 desktop app
 
 ---
 
