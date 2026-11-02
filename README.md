@@ -40,8 +40,6 @@ location: Istanbul, Turkey 🇹🇷
 
 current_roles:
   - Co-founder & CTO @ TegmenSoft
-  - AI Trainer @ Invisible Technologies
-  - Founder & Developer @ Bilir.app
   - Embedded SW Team Lead @ UKET (Volunteer)
 
 philosophy:
@@ -69,8 +67,7 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 | Role | Organization | Period | Highlights |
 |:---|:---|:---:|:---|
 | 🛡️ **Co-founder & CTO** | [TegmenSoft](https://www.tegmensoft.com.tr) | 2025 - Now | EU CRA compliance platform: firmware SBOM, vulnerability prioritisation, VEX, signed OTA (ESP32 SDK) |
-| 🤖 **AI Trainer** | Invisible Technologies | 2025 - Now | LLM validation, RLHF, Turkish NLP |
-| 🚀 **Founder & Developer** | Bilir.app | 2024 - Now | Flutter, OOP design, 6-person team lead |
+| 🤖 **AI Trainer** | Invisible Technologies | 2025 - 2026 | LLM validation, RLHF, Turkish NLP |
 | ⚙️ **Embedded SW Lead** *(Volunteer)* | UKET | 2023 - Now | Rover systems, sensor fusion, C/C++ |
 | 🔬 **Software Intern** | TÜBİTAK MAM | 2023 | DSP, VNA data, MATLAB/Python |
 
@@ -447,12 +444,6 @@ Plus an ESP32 device SDK for signed telemetry and secure OTA updates with rollba
 
 </div>
 </details>
-
----
-
-## 📄 Publications
-
-- *Design of an Active Magnetic Radiation Shield Using High Temperature Superconductors for Manned Lunar Roving Vehicles*, **IAC 2026**, Antalya (Session A5.1)
 
 ---
 
