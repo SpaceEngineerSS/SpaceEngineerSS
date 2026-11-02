@@ -6,7 +6,7 @@
 <!-- Typing Animation -->
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Aerospace+%26+Defense+Software+Developer+%F0%9F%9B%B0%EF%B8%8F;Physics+Simulation+%7C+AI+%7C+Embedded+Systems;Building+OrbitView+%7C+RadarSim+%7C+EnSim+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=00D4FF&center=true&vCenter=true&repeat=true&width=700&lines=Co-founder+%26+CTO+%40+TegmenSoft+%F0%9F%9B%A1%EF%B8%8F;Aerospace+%26+Defense+Software+Developer+%F0%9F%9B%B0%EF%B8%8F;Physics+Simulation+%7C+AI+%7C+Embedded+Systems;Building+OrbitView+%7C+RadarSim+%7C+EnSim+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </div>
 
@@ -18,6 +18,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=SpaceEngineerSS&style=for-the-badge&color=00d4ff&label=VISITORS)](https://github.com/SpaceEngineerSS)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mehmetgümüş)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:spacegumus@gmail.com)
+[![TegmenSoft](https://img.shields.io/badge/TegmenSoft-0E7C6F?style=for-the-badge&logo=shield&logoColor=white)](https://www.tegmensoft.com.tr)
 [![Website](https://img.shields.io/badge/Portfolio-00D4FF?style=for-the-badge&logo=safari&logoColor=white)](https://spacegumus.com.tr)
   
 </div>
@@ -38,6 +39,7 @@ name: Mehmet Gümüş
 location: Istanbul, Turkey 🇹🇷
 
 current_roles:
+  - Co-founder & CTO @ TegmenSoft
   - AI Trainer @ Invisible Technologies
   - Founder & Developer @ Bilir.app
   - Embedded SW Team Lead @ UKET (Volunteer)
@@ -52,6 +54,7 @@ focus_areas:
   - AI/ML & LLM Training (RLHF)
   - Real-time Physics Simulations
   - Embedded Systems & Robotics
+  - Embedded Product Security (EU CRA, SBOM, Secure OTA)
   - 3D Visualization & WebGL
 
 fun_fact: "I build rockets in software before they fly in reality 🚀"
@@ -65,10 +68,27 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 | Role | Organization | Period | Highlights |
 |:---|:---|:---:|:---|
+| 🛡️ **Co-founder & CTO** | [TegmenSoft](https://www.tegmensoft.com.tr) | 2025 - Now | EU CRA compliance platform: firmware SBOM, vulnerability prioritisation, VEX, signed OTA (ESP32 SDK) |
 | 🤖 **AI Trainer** | Invisible Technologies | 2025 - Now | LLM validation, RLHF, Turkish NLP |
 | 🚀 **Founder & Developer** | Bilir.app | 2024 - Now | Flutter, OOP design, 6-person team lead |
 | ⚙️ **Embedded SW Lead** *(Volunteer)* | UKET | 2023 - Now | Rover systems, sensor fusion, C/C++ |
 | 🔬 **Software Intern** | TÜBİTAK MAM | 2023 | DSP, VNA data, MATLAB/Python |
+
+</div>
+
+---
+
+## 🛡️ TegmenSoft
+
+<div align="center">
+
+**Co-founder & CTO** of [TegmenSoft](https://www.tegmensoft.com.tr), an EU Cyber Resilience Act (CRA) compliance platform for connected devices
+
+`Firmware` → `SBOM` → `Prioritised vulnerabilities (CISA KEV, EPSS)` → `VEX` → `Signed technical file` → `Article 14 reporting`
+
+Plus an ESP32 device SDK for signed telemetry and secure OTA updates with rollback · Teknopol İstanbul · NVIDIA Inception
+
+🔎 Try the free [SBOM viewer](https://www.tegmensoft.com.tr/en/sbom) for CycloneDX & SPDX
 
 </div>
 
@@ -427,6 +447,12 @@ fun_fact: "I build rockets in software before they fly in reality 🚀"
 
 </div>
 </details>
+
+---
+
+## 📄 Publications
+
+- *Design of an Active Magnetic Radiation Shield Using High Temperature Superconductors for Manned Lunar Roving Vehicles*, **IAC 2026**, Antalya (Session A5.1)
 
 ---
 
